@@ -7,6 +7,7 @@ This project, is about identifying lane lines on the road. First in an image, an
 The first goal is to write code to identify and draw the lane lines on a few test images. And later copy and paste the code into the block provided to run on a video stream.
 
 Here are images so the most important steps:
+
 the original image:
 
 ![](https://github.com/christianreiser/P1-finding-lane-lines/blob/master/P1/output_images/original.jpg)
