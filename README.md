@@ -12,14 +12,18 @@ the original image:
 ![](https://github.com/christianreiser/P1-finding-lane-lines/blob/master/P1/output_images/original.jpg)
 
 Grayscale transform
+
 ![](https://github.com/christianreiser/P1-finding-lane-lines/blob/master/P1/output_images/gray.jpg)
+
+Canny transform to see the gradient
+
+![](https://github.com/christianreiser/P1-finding-lane-lines/blob/master/P1/output_images/gradient.jpg)
 
 Image mask which only keeps the region of the image defined by the polygon
 formed from `vertices`. The rest of the image is set to black.
+
 ![](https://github.com/christianreiser/P1-finding-lane-lines/blob/master/P1/output_images/mask.png)
 
-Canny transform to see the gradient
-![](https://github.com/christianreiser/P1-finding-lane-lines/blob/master/P1/output_images/gradient.jpg)
-
 Hough lines drawn on the image
+
 ![](https://github.com/christianreiser/P1-finding-lane-lines/blob/master/P1/output_images/combined.png)
